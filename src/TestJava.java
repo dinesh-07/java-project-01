@@ -54,7 +54,7 @@ public class TestJava {
 	 * @author Rohit
 	 */
 	private static int multiplyAllArrayElement(int a[]) {
-		return 0;
+		return 1;
 	}
 
 	/*
