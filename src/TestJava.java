@@ -19,6 +19,10 @@ public class TestJava {
 	 * @author Bhavani
 	 */
 	private static void multiplyKeyToEachArrayElement(int a[], int key) {
+		for(int i=0;i<a.length;i++){
+			a[i] *= key;
+		}
+
 
 	}
 
