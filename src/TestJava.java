@@ -67,7 +67,10 @@ public class TestJava {
 		while(i<j)
 		{
 		if(str.charAt(i)!=str.charAt(j))
+		{
 		count=0;
+		break;
+		}
 		}
 		if(count==1)
 		return true;
