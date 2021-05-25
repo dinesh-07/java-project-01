@@ -51,7 +51,17 @@ public class TestJava {
 	 * @author Roushan
 	 */
 	private static int substractAllArrayElement(int a[]) {
-		return 0;
+		int sub=0;
+		for(int i=0;i<a.length;i++)
+		{
+			if(i==0) {
+				sub=a[i];
+			}
+			else {
+				sub=sub-a[i];
+			}
+		}
+		return sub;
 	}
 
 	/*
