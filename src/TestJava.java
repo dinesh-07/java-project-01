@@ -75,7 +75,22 @@ public class TestJava {
 	 * @author Shivay
 	 */
 	private static boolean isPalimdrome(String str) {
+		int n=str.length();
+		int i=0,j=n-1;
+		int count=1;
+		while(i<j)
+		{
+		if(str.charAt(i)!=str.charAt(j))
+		{
+		count=0;
+		break;
+		}
+		}
+		if(count==1)
+		return true;
+		else 
 		return false;
+
 	}
 
 	/*
